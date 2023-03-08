@@ -9,14 +9,38 @@
     <TextView
         android:id="@+id/txtTitulo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="70dp"
         android:layout_margin="10dp"
-        android:background="#FFEB3B"
-        android:text="Google ML Kit"
+        android:background="#64DD17"
+        android:text="Examen Parcial \n Denny Saltos"
         android:textAlignment="center"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/escudo_uteq"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btGallery"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="15dp"
+        />
+
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_fci"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btGallery"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="15dp"
+        />
 
     <Button
         android:id="@+id/btGallery"
